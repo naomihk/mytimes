@@ -1,5 +1,68 @@
-h1 {
+header {
+  display: flex;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+
+}
+
+.logo {
+display: flex-items;
+
+}
+
+.logo img {
+  width: auto;
+  height: auto;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  display: inline-block;
+}
+
+
+.nav {
+}
+
+
+.logo {
+
+}
+
+
+.nav {
+
+
+}
+
+.nav span {
+  display: inline-block;
+}
+
+
+.column.large {
+  width: 630px;
+  border: 1px solid black;
+}
+.lead-story .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+
+.column.medium {
+  width: 300px;
+    border: 1px solid pink;
+
+
+}
+
+.cat-ceo .image-content {
+  backgroud-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.column.small {
+  width: 240px;
+    border: 1px solid green;
 }
