@@ -1,11 +1,13 @@
 /*universal styles */
 
 body {
-
+  font-family: "Georgia" serif;
+  font-size: 17px;
+  color: black;
 }
 
 a {
-
+color: black;
 
 }
 
@@ -18,9 +20,6 @@ nav span {
   padding: 20px 10px;
 }
 
-div {
-
-}
 
 /* header */
 
@@ -65,7 +64,6 @@ header nav {
 
 .content {
   display: flex;
-  justify-content: space-between;
   padding-top: 120px;
   margin: 0 auto 78px auto;
   width: 1232px;
@@ -74,12 +72,13 @@ header nav {
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  margin-right: 32px;
 }
 
 .image-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -91,9 +90,7 @@ header nav {
 .story {
   display: flex;
   flex-direction: column;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  width: 300px;
 }
 
 .stories {
@@ -119,6 +116,10 @@ header nav {
   margin-top: 0;
   font-size: 40px;
   text-align: left;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
 }
 
 .fall-cancelled.image-content {
